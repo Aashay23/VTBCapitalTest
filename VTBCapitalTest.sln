@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTBCapitalTest", "VTBCapitalTest\VTBCapitalTest.csproj", "{9E5DA904-23B0-4950-BD40-2E3B90BF23EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VTBCapitalTest.Tests", "VTBCapitalTest.Tests\VTBCapitalTest.Tests.csproj", "{5B475B26-2D00-48C6-B519-56CAFEA2CF81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E5DA904-23B0-4950-BD40-2E3B90BF23EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5DA904-23B0-4950-BD40-2E3B90BF23EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5DA904-23B0-4950-BD40-2E3B90BF23EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5DA904-23B0-4950-BD40-2E3B90BF23EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B475B26-2D00-48C6-B519-56CAFEA2CF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B475B26-2D00-48C6-B519-56CAFEA2CF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B475B26-2D00-48C6-B519-56CAFEA2CF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B475B26-2D00-48C6-B519-56CAFEA2CF81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
