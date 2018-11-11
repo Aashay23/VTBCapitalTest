@@ -1,3 +1,4 @@
+using System;
 using FluentAssertions;
 using Xunit;
 
@@ -8,15 +9,7 @@ namespace VTBCapitalTest.Tests
         [Fact]
         public void InValidInput()
         {
-            try
-            {
-                var result = ExpressionEvaluator.Evaluate("(2+3");
-            }
-            catch (System.Exception ex)
-            {
-                ex.Should().Be("Input expression is missing closing paranthesis");
-            }
-
+            Assert.Throws<Exception>(() => ExpressionEvaluator.Evaluate("(2+3"));
         }
 
         [Fact]
